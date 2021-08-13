@@ -3,6 +3,6 @@ resource "null_resource" "execute-ansible-cli" {
     command = "./install-ansible.sh"
   }
   provisioner "local-exec" {
-    command = "./install-ansible.sh"
+    command = "ls"
   }
 }
